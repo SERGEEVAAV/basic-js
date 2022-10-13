@@ -13,9 +13,16 @@ const { NotImplementedError } = require('../extensions/index.js');
  */
 function deleteDigit(n) {
   
-  let str = n.toString();
-  num = str.slice(0,  str.length - 1);
- return num;
+//   let str = n.toString();
+//   num = str.slice(0,  str.length - 1);
+//  return num;
+let x = 152;
+let p = 1;
+while (x / p > 9) p *= 10;
+let y = x % p;
+return y;
+
+
 }
 
 module.exports = {

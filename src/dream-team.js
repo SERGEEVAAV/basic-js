@@ -19,7 +19,7 @@ function createDreamTeam(arr) {
 
   var arr = ['Matt', 'Ann', 'Dmitry', 'Max'];
   arr[0].charAt(0) + arr[1].charAt(0) + arr[2].charAt(0) + arr[3].charAt(0);
- return(arr)
+ return arr;
 }
 
 module.exports = {
