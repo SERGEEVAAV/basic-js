@@ -17,11 +17,9 @@ const { NotImplementedError } = require('../extensions/index.js');
 
 function createDreamTeam(arr) {
 
- let arr = ['Matt', 'Ann', 'Dmitry', 'Max'];
- let newArr = [];
- 
- Array.from(arr[0])[0]
-  return newArr;
+  var arr = ['Matt', 'Ann', 'Dmitry', 'Max'];
+  arr[0].charAt(0) + arr[1].charAt(0) + arr[2].charAt(0) + arr[3].charAt(0);
+ return(arr)
 }
 
 module.exports = {
